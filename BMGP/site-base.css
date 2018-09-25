@@ -25,27 +25,36 @@ body {
     font-size: 40px;
     text-align: center;
     padding: 20px;
+	width: 100%;
 }
 img {
-    width: 500px;
-    margin-top: 50px;
+    margin-top: 0px;
+	width: 400px;
 }
 
 .traits {
 	position: fixed;
     top: 0;
-	left: 0;
+	left: 50%;
 	display: block;
 	margin: auto;
-	height: 100vh;
+	width: 400px;
+	margin-left: -200px;
 }
 
 
 .images-gauche {
-	
+	width: 20%;
+
 }
 
+.images-droite {
+	position: absolute;
+	width: 20%;
+	top: 0;
+	right: 0;
 
+}
 
 
 
