@@ -23,34 +23,8 @@ div {
 body {
     font-family: 'League Gothic';
     font-size: 40px;
-    text-align: center;
-    padding: 20px;
-	width: 100%;
+    overflow: hidden;
 }
-img {
-    margin-top: 0px;
-	width: 400px;
-}
-
-.images-gauche {
-	width: 20%;
-}
-.images-gauche img {
-	float: letf;
-	margin-top: 30px;
-}
-
-.images-droite {
-	position: absolute;
-	width: 700px;
-	top: 0;
-	right: 0;
-}
-.images-droite img {
-	float: right;
-	margin-top: 30px;
-}
-
 .traits {
     position: absolute;
     top: 0;
@@ -68,12 +42,12 @@ img {
     left: -215px;
 }
 .zone-travail {
-	border: 2px solid yellow;
     position: absolute;
-    top: -100px;
-    left: -500px;
-    width: 1450px;
+    top: 0;
+    left: -400px;
+    width: 1500px;
     height: 90vh;
+    border: 2px solid yellow;
     overflow: scroll;
 }
 .zone-outils {
@@ -82,11 +56,8 @@ img {
     left: 0;
     width: 100%;
     height: 8000px;
+    background-color: #d3d3d34d;
 }
-
-
-
-
 
 /* RESPONSIVE */
 
@@ -117,12 +88,14 @@ img {
     .screen-only {
         display: none;
     }
+    body {
+    }
     a {
         color: black;
     }
-	.canvas {
-		overflow: hidden;
-	}
+    .canvas {
+        overflow: hidden;
+    }
 }
 
 @page {
