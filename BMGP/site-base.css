@@ -75,6 +75,7 @@ img {
     width: 1450px;
     height: 90vh;
     overflow: scroll;
+
 }
 .zone-outils {
     position: absolute;
@@ -82,6 +83,26 @@ img {
     left: 0;
     width: 100%;
     height: 8000px;
+}
+
+.BGZOO {
+	background-color: black;
+	height: 2000px;
+}
+
+.BGREZ {
+	background-color: pink;
+	height: 2000px;
+}
+
+.BGTU {
+	background-color: red;
+	height: 2000px;
+}
+
+.BGSPOK {
+	background-color: green;
+	height: 2000px;
 }
 
 
